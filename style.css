@@ -1,0 +1,27 @@
+body{
+ text-align: center !important;
+}
+#final{
+ width: 25rem;
+ height: 19rem;
+ overflow: hidden;
+ margin: auto;
+ display: block;
+}
+.picture{
+ width: 25rem;
+ height: 19rem;
+ margin: auto;
+}
+.imgContainer{
+ overflow: hidden;
+ float: left;
+ width: 10rem;
+ height: 10rem;
+}
+.imgContainer > img{
+ height: 20rem;
+ width: 25rem;
+ margin-left: -2rem;
+ margin-top: -10rem;
+}
