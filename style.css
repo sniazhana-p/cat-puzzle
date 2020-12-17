@@ -1,5 +1,6 @@
 body{
  text-align: center !important;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 #final{
  width: 25rem;
@@ -18,10 +19,47 @@ body{
  float: left;
  width: 10rem;
  height: 10rem;
+ 
 }
 .imgContainer > img{
  height: 20rem;
  width: 25rem;
- margin-left: -2rem;
- margin-top: -10rem;
+ margin-left: -5rem;
+ margin-top: -5rem;
 }
+
+#drop-zone >.imgContainer{
+  border-style: solid; 
+}
+
+@media (max-width: 575px) { 
+body{
+  background-color: slateblue
+}
+ }
+
+@media (min-width: 576px) and (max-width: 767px) { 
+  body{
+background-color: cadetblue
+  }
+ }
+
+
+@media (min-width: 768px) and (max-width: 991px) { 
+body{
+background-color: cornflowerblue
+}
+ }
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+body{
+background-color: deeppink
+}
+ }
+
+@media (min-width: 1200px) { 
+  body{
+background-color: darksalmon
+  }
+ }
